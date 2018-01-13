@@ -7,8 +7,9 @@ use Dms\Ioc\IlluminateContainer;
 use Illuminate\Container\Container;
 use Psr\Container\ContainerInterface;
 use Psr\Container\ContainerExceptionInterface;
+use PHPUnit\Framework\TestCase;
 
-class IlluminateContainerTest extends \PHPUnit_Framework_TestCase
+class IlluminateContainerTest extends TestCase
 {
 
     /**
