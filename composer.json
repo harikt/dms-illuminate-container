@@ -1,0 +1,36 @@
+{
+    "name": "harikt/dms-illuminate-container",
+    "description": "The integration package with dms and illuminate container",
+    "license": "MIT",
+    "config": {
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Elliot Levin",
+            "email": "elliotlevin@hotmail.com"
+        },
+        {
+            "name": "Hari KT",
+            "email": "kthari85@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Dms\\Ioc\\": "./src/"
+        }
+    },
+    "require": {
+        "dms-org/core": "^0.8",
+        "illuminate/container": "5.5.*"
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Dms\\Ioc\\Tests\\": "./tests/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
