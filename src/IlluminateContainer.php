@@ -234,11 +234,4 @@ class IlluminateContainer implements IIocContainer
         }
     }
 
-    public function makeAll(array $services)
-    {
-        foreach ($services as $key => $service) {
-            $services[$key] = $this->get($service);
-        }
-        return $services;
-    }
 }
